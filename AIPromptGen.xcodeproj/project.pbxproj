@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		AD184E572DB42FD100DC5301 /* AIPromptGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIPromptGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD184E802DB4338F00DC5301 /* AIPromptGenerator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AIPromptGenerator.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -42,6 +43,11 @@
 			children = (
 				AD184E572DB42FD100DC5301 /* AIPromptGen.app */,
 			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD184E8A2DB4338F00DC5301 /* Products */ = {
+			isa = PBXGroup;
 			name = Products;
 			sourceTree = "<group>";
 		};
@@ -97,6 +103,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AD184E582DB42FD100DC5301 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AD184E8A2DB4338F00DC5301 /* Products */;
+					ProjectRef = AD184E802DB4338F00DC5301 /* AIPromptGenerator.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AD184E562DB42FD100DC5301 /* AIPromptGen */,
